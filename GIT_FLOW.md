@@ -14,7 +14,7 @@ We use git, and the Git Flow, AVH Edition : https://github.com/petervanderdoes/g
 
 ```bash
 touch README.md
-git add -A && git commot -m "init git flow" && git push -u origin master
+git add -A && git commit -m "init git flow" && git push -u origin master
 git flow init --defaults
 git push -u origin --all
 
@@ -33,7 +33,7 @@ git flow feature start ${FEATURE_ALIAS}
 
 # then edit the source code files, and git commit them
 
-git add -A && git commot -m "I did this and that in the src code" && git push -u origin HEAD
+git add -A && git commit -m "I did this and that in the src code" && git push -u origin HEAD
 
 # then edit and commit again if necessary
 
